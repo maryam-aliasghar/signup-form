@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:url(bg-image.png);
+    background-size: cover;
+}
+h1{
+    color:rgb(9, 44, 238) ;
+}
+form{
+    height: 450px;
+    width: 400px;
+    background-color:white;
+    position: absolute;
+    left: 35%;
+    top:90px;
+    border-radius: 10px;
+    }
+.heading{
+    padding: 25px 20px 30px 100px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page{
+    position: absolute;
+    left: 50px;
+}
+span{
+    padding: 0 0 0 10px;
+    font-weight: medium;
+    font-family:sans-serif ;
+}
+.input{
+    border: 1px solid black;
+    height: 25px;
+    width: 250px;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 15px;
+
+}/*
+.password{
+    border: 1px solid black;
+    height: 25px;
+    width: 250px;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 15px;
+}*/
+.checkbox{
+    padding-top: 20px;
+
+}
+button{
+    height: 30px;
+    width: 170px;
+    background-color: rgb(9, 44, 238);
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+.signupbttn{
+    position: absolute;
+    left: 30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.signupemail{
+    position: absolute;
+    left: 30px;
+    margin-top: -15px;
+}
+hr{
+    margin-top: 70px;
+    width: 70%;
+    padding-left: 60px;
+}
+.or{
+    background: #fff;
+    width: 15px;
+    margin: -12px 135px 10px;
+    font-size: 17px;
+
+}
+footer{
+    margin: 60px 0 0 20px;
+}
+a{
+    text-decoration: none;
+}
